@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login_Activity</string>
+    <string name="college">College :</string>
+    <string name="name">Name :</string>
+    <string name="email_id">Email id :</string>
+    <string name="fullname">   Enter Full Name </string>
+    <string name="college_pune"> eg: abc college pune</string>
+    <string name="register"> eg: Register </string>
+    <string name="remember_me">Remember Me</string>
+
+
+</resources>

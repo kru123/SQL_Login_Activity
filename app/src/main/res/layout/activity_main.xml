@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context="com.example.user.login_activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="85dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/college"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="@string/fullname"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/editText"
+        android:maxLength="35"
+        android:minLines="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="@string/college_pune"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/editText3"
+        android:maxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="108dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/email_id"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/editText2"
+        android:maxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="162dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="158dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/remember_me"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
